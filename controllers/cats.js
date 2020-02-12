@@ -12,4 +12,20 @@ router.post('/', (req, res) => {
   );
 });
 
+router.get('/:id', (req, res) => {
+  Cat.findById({ _id: req.params.id }).then(cats => {
+    res.json(cats)
+  });
+});
+
+router.put('/:id', (req, res) => {
+  Cat.findOneAndUpdate({ _id: req.params.id }, req.body, { new: true }).then(cat =>
+    res.json(cat)).then(() => {res.redirect('/');});
+});
+
+router.delete('/:id', (req, res) => {
+  Cat.findOneAndDelete({ _id: req.params.id })
+  .then(cat => res.json(cat));
+});
+
 module.exports = router;
