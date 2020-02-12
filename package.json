@@ -1,0 +1,26 @@
+{
+  "name": "Catopia-BackEnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongo": "^0.1.0",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sage-Kearney/Catopia-BackEnd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sage-Kearney/Catopia-BackEnd/issues"
+  },
+  "homepage": "https://github.com/Sage-Kearney/Catopia-BackEnd#readme"
+}
