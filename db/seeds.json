@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Gabby",
+    "type": "Domestic shorthair- black kitty",
+    "img": "https://i.imgur.com/POh2l9a.jpg",
+    "personality": "Super sweet, with a wild side!"
+  },
+  {
+    "name": "Chewy",
+    "type": "Tabby",
+    "img": "https://i.imgur.com/wQyAbf1.jpg",
+    "personality": "Lovable shithead."
+  },
+  {
+    "name": "Simba",
+    "type": "Ocicat",
+    "img": "https://www.veterinarians.com/features/a-guide-to-the-ocicat-cat",
+    "personality": "Fiesty! Very independent"
+  },
+  {
+    "name": "Luna",
+    "type": "Burmese",
+    "img": "https://www.certapet.com/burmese-cat/",
+    "personality": "She loves the moon."
+  },
+  {
+    "name": "Flashlight",
+    "type": "Tuxedo",
+    "img": "https://i.imgur.com/W6QRvBY.jpeg",
+    "personality": "Low key, mysterious, but also loves the lime light."
+  }
+]
